@@ -11,7 +11,7 @@
       <div class="profile">
         <div class="profile__avatar">
           <div class="avatar avatar--large active">
-            <img src="{{request.user.avatar.url}}" />
+            <img src="{{user.avatar.url}}" />
           </div>
         </div>
         <div class="profile__info">
@@ -25,12 +25,12 @@
         </div>
         <div class="profile__about">
           <h3>About</h3>
-          <p>{{request.user.bio}}</p>
+          <p>{{user.bio}}</p>
         </div>
       </div>
 
       <div class="roomList__header">
-        <h2>Study Rooms Hosted by {{request.user.name}}</h2>
+        <h2>Study Rooms Hosted by {{user.name}}</h2>
       </div>
       <div>{% include 'base/feed_component.html' %}</div>
     </div>
