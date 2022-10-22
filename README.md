@@ -2,7 +2,8 @@
 
 Web-Application for Discussing different Topics using the Django-Framework
 
-## Done with the help of the tutorial provided by <a href="https://github.com/divanov11">Dennis Ivy</a> (<a href="https://www.youtube.com/watch?v=PtQiiknWUcI">Youtube</a> | <a href="https://github.com/divanov11/StudyBud">GitHub</a>)
+### Done with the help of the tutorial provided by <a href="https://github.com/divanov11">Dennis Ivy</a> 
+(<a href="https://www.youtube.com/watch?v=PtQiiknWUcI">Youtube</a> | <a href="https://github.com/divanov11/StudyBud">GitHub</a>)
 
 ### Starting this app on your own device
 
@@ -42,5 +43,11 @@ Inside your venv, install all relevant packages
 
 ```bash
 python -m pip install -r requirements.txt
+
+```
+
+Start the server on localhost (You need an account to use the app, but the email does not need to be valid...)
+```bash
+python manage.py runserver
 
 ```
